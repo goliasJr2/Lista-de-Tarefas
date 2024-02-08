@@ -14,7 +14,7 @@ function ExemploComponente() {
     {
       itemInput === ""
         ? alert("Digite alguma tarefa")
-        : setList([...list, { label: itemInput, checked: true }]);
+        : setList([...list, { label: itemInput, checked: false }]);
     }
     setItemInput("");
   };
